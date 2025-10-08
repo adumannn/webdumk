@@ -8,7 +8,7 @@ const Avatar = () => {
   return (
     <div className="relative h-28 w-28 overflow-hidden rounded-full border-4 border-background shadow-xl ring-2 ring-accent/40">
       <Image
-        src="/images/avatar.svg"
+        src="/images/avatar.jpg"
         alt="[YOUR_NAME] portrait"
         width={224}
         height={224}
