@@ -54,6 +54,9 @@ const HomePage = async () => {
             <ButtonLink href={SITE.socials.github} variant="link">
               GitHub
             </ButtonLink>
+            <ButtonLink href={SITE.socials.github} variant="link">
+              LinkedIn
+            </ButtonLink>
           </div>
         </div>
       </section>
