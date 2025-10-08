@@ -55,17 +55,14 @@ const HomePage = async () => {
           <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
             {SITE.name} — {SITE.role}
           </h1>
-          <p className="text-lg text-muted">
-            Product-minded engineer focused on building inclusive, high-impact web
-            experiences that scale. Currently open to [OPPORTUNITY_TYPE].
-          </p>
+          <p className="text-lg text-muted">Undergraduate student @ NYU Shanghai.</p>
           <div className="flex flex-wrap items-center gap-3">
             <ButtonLink href="/projects">View Projects</ButtonLink>
             <ButtonLink href={SITE.resumeUrl} variant="ghost">
               Download Résumé
             </ButtonLink>
             <ButtonLink href={`mailto:${SITE.email}`} variant="link">
-              Email Me
+              Email
             </ButtonLink>
           </div>
         </div>
