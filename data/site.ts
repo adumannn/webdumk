@@ -9,7 +9,7 @@ export const SITE = {
   },
   coreSkills: {
     languages: ['TypeScript', 'JavaScript', 'Python', 'C++'],
-    frameworks: ['Next.js', 'React', 'Node.js'],
+    frameworks: ['Next.js', 'React', 'Node.js', 'PyTorch'],
     tools: ['Git', 'Docker', 'Figma', 'Vercel'],
   },
 } as const;
