@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 245 245 245;
+  --fg: 17 17 17;
+  --muted: 107 114 128;
+  --accent: 37 99 235;
+  --font-sans: 'Inter';
+  --font-mono: 'JetBrains Mono';
+}
+
+.dark {
+  --bg: 5 5 5;
+  --fg: 249 250 251;
+  --muted: 156 163 175;
+  --accent: 96 165 250;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+a {
+  @apply text-accent underline-offset-4 transition-colors hover:underline;
+}
+
+.prose {
+  @apply text-foreground;
+}
+
+.prose code {
+  @apply rounded bg-muted/10 px-1 py-0.5 font-mono text-sm;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-sm;
+}
+
+.prose table {
+  @apply w-full table-auto border-collapse text-left;
+}
+
+.prose thead {
+  @apply border-b border-muted/40 font-semibold;
+}
+
+.prose tbody tr {
+  @apply border-b border-muted/20;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

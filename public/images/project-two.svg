@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Project Two Illustration</title>
+  <desc id="desc">An abstract workflow diagram.</desc>
+  <rect width="640" height="400" rx="32" fill="#fef3c7" />
+  <circle cx="200" cy="200" r="72" fill="#f97316" opacity="0.9" />
+  <circle cx="440" cy="140" r="56" fill="#10b981" opacity="0.9" />
+  <circle cx="440" cy="280" r="64" fill="#6366f1" opacity="0.9" />
+  <path d="M260 200h120" stroke="#0f172a" stroke-width="12" stroke-linecap="round" opacity="0.2" />
+  <path d="M440 196v48" stroke="#0f172a" stroke-width="12" stroke-linecap="round" opacity="0.2" />
+</svg>
