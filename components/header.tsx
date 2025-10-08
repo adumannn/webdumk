@@ -39,7 +39,7 @@ const Header = () => {
       </a>
       <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="text-sm font-semibold tracking-tight text-foreground">
-          {`<${'Portfolio'}>`}
+          {`Dumka`}
         </Link>
         <nav aria-label="Main navigation" className="flex items-center gap-3 sm:gap-6">
           <button

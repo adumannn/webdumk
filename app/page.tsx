@@ -51,6 +51,9 @@ const HomePage = async () => {
             <ButtonLink href={`mailto:${SITE.email}`} variant="link">
               Email
             </ButtonLink>
+            <ButtonLink href={SITE.socials.github} variant="link">
+              GitHub
+            </ButtonLink>
           </div>
         </div>
       </section>
