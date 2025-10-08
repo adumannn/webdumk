@@ -18,7 +18,7 @@ const ProjectsPage = () => {
       <SectionHeading
         eyebrow="Work"
         title="Project archive"
-        description="A mix of production launches and explorations that demonstrate how I approach product engineering."
+        description="A curated selection of original ideas I have crafted"
       />
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((project) => (
