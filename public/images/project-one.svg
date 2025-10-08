@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Project One Illustration</title>
+  <desc id="desc">A stylized dashboard mockup.</desc>
+  <rect width="640" height="400" rx="32" fill="#dbeafe" />
+  <rect x="80" y="80" width="480" height="240" rx="24" fill="#1d4ed8" opacity="0.85" />
+  <rect x="120" y="120" width="400" height="56" rx="16" fill="#f8fafc" opacity="0.9" />
+  <rect x="120" y="200" width="220" height="36" rx="12" fill="#bfdbfe" />
+  <rect x="360" y="200" width="160" height="36" rx="12" fill="#3b82f6" opacity="0.9" />
+  <rect x="120" y="260" width="320" height="36" rx="12" fill="#93c5fd" opacity="0.9" />
+</svg>
