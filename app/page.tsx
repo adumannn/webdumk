@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import Avatar from '@/components/avatar';
+// import Avatar from '@/components/avatar';
 import { ButtonLink } from '@/components/button';
 import SectionHeading from '@/components/section-heading';
 import { featuredProjects } from '@/components/project-card';
@@ -36,7 +36,7 @@ const HomePage = async () => {
   return (
     <div className="space-y-20">
       <section className="grid gap-10 md:grid-cols-[auto,1fr] md:items-center">
-        <Avatar />
+        {/* <Avatar /> */}
         <div className="space-y-6">
           <p className="text-sm uppercase tracking-[0.3em] text-muted">{SITE.location}</p>
           <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
