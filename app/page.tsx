@@ -48,13 +48,16 @@ const HomePage = async () => {
             <ButtonLink href={SITE.resumeUrl} variant="ghost">
               Download Résumé
             </ButtonLink>
-            <ButtonLink href={`mailto:${SITE.email}`} variant="link">
+            <a
+              href={`mailto:${SITE.email}`}
+              className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition text-accent underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            >
               Email
-            </ButtonLink>
+            </a>
             <ButtonLink href={SITE.socials.github} variant="link">
               GitHub
             </ButtonLink>
-            <ButtonLink href={SITE.socials.github} variant="link">
+            <ButtonLink href={SITE.socials.linkedin} variant="link">
               LinkedIn
             </ButtonLink>
           </div>
