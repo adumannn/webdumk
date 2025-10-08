@@ -6,8 +6,7 @@ import { buildCanonicalUrl } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description:
-    'Selected case studies and experiments focused on craft, performance, and impact.',
+  description: 'A curated selection of original ideas I have crafted',
   alternates: {
     canonical: buildCanonicalUrl('/projects'),
   },

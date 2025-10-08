@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 export async function GET() {
   const feed = new Feed({
     id: buildCanonicalUrl('/'),
-    title: `${SITE.name} · ${SITE.role}`,
+    title: `${SITE.name}`,
     description:
       'Latest articles on product engineering, accessibility, and design systems.',
     link: buildCanonicalUrl('/'),
