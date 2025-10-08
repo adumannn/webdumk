@@ -123,7 +123,7 @@ const HomePage = async () => {
       </section>
 
       <section className="space-y-10">
-        <SectionHeading title="Education" />
+        <SectionHeading eyebrow=" " title="Education" />
         <article className="rounded-3xl border border-muted/30 bg-background/80 p-6 shadow-sm">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <div>
