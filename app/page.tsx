@@ -58,8 +58,7 @@ const HomePage = async () => {
       <section className="space-y-10">
         <SectionHeading
           eyebrow="Core Skills"
-          title="Building resilient, user-first products"
-          description="A snapshot of the tools and technologies I rely on to ship delightful experiences."
+          title="A snapshot of the tools and technologies"
         />
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-3xl border border-muted/30 bg-background/80 p-6 shadow-sm">
