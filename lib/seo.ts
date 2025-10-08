@@ -14,8 +14,7 @@ export const defaultMetadata: Metadata = {
     default: `${SITE.name}`,
     template: `%s · ${SITE.name}`,
   },
-  description:
-    'Personal portfolio showcasing projects, writing, and experience in modern web engineering.',
+  description: 'Personal portfolio',
   keywords: ['portfolio', 'Next.js', 'TypeScript', SITE.name],
   authors: [{ name: SITE.name }],
   creator: SITE.name,
