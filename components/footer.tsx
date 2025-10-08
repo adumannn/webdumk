@@ -22,23 +22,6 @@ const Footer = () => {
           <p className="text-sm text-muted">
             © {new Date().getFullYear()} {SITE.name}.
           </p>
-          <ul className="flex items-center gap-4">
-            {Object.entries(SITE.socials).map(([key, value]) =>
-              value ? (
-                <li key={key}>
-                  <a
-                    href={value}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-muted/40 text-muted transition hover:border-accent/60 hover:text-accent focus-visible:outline focus-visible:outline-accent"
-                    aria-label={`Visit ${SITE.name}'s ${key}`}
-                  >
-                    {/* {socialIcons[key]} */}
-                  </a>
-                </li>
-              ) : null
-            )}
-          </ul>
         </div>
       </Container>
     </footer>
