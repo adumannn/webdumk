@@ -24,13 +24,6 @@ export const defaultMetadata: Metadata = {
     locale: 'en_US',
     siteName: SITE.name,
   },
-  twitter: {
-    card: 'summary_large_image',
-    creator: SITE.socials.twitter?.split('.com/')[1]
-      ? `@${SITE.socials.twitter.split('.com/')[1]}`
-      : undefined,
-    site: SITE.socials.twitter,
-  },
   alternates: {
     canonical: buildCanonicalUrl('/'),
   },
