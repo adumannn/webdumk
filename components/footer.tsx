@@ -12,11 +12,6 @@ const socialIcons: Record<string, JSX.Element> = {
       <path d="M4.98 3.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM.5 23.5h4.9V7.9H.5v15.6zM8 7.9h4.7v2.1h.1c.7-1.3 2.5-2.6 5.2-2.6 5.6 0 6.7 3.7 6.7 8.6v7.5h-4.9v-6.7c0-1.6 0-3.6-2.2-3.6-2.2 0-2.5 1.7-2.5 3.5v6.8H8V7.9z" />
     </svg>
   ),
-  twitter: (
-    <svg aria-hidden className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M20.9 7.5c.6-.4 1.1-1 1.5-1.6-.6.3-1.2.6-1.8.6a3.27 3.27 0 0 0 1.3-1.8 6.41 6.41 0 0 1-2 .8A3.21 3.21 0 0 0 12 7.6a9.14 9.14 0 0 1-6.6-3.4 3.21 3.21 0 0 0 1 4.3c-.5 0-1-.2-1.4-.4v.1a3.21 3.21 0 0 0 2.6 3.2 3.24 3.24 0 0 1-1.4.1 3.22 3.22 0 0 0 3 2.2 6.44 6.44 0 0 1-4 1.4c-.3 0-.6 0-.9-.1a9.13 9.13 0 0 0 14-7.7v-.4a6.41 6.41 0 0 0 1.6-1.6z" />
-    </svg>
-  ),
 };
 
 const Footer = () => {
@@ -25,7 +20,7 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <p className="text-sm text-muted">
-            © {new Date().getFullYear()} {SITE.name}. Crafted with care.
+            © {new Date().getFullYear()} {SITE.name}.
           </p>
           <ul className="flex items-center gap-4">
             {Object.entries(SITE.socials).map(([key, value]) =>

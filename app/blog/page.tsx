@@ -31,11 +31,7 @@ const BlogPage = async ({ searchParams }: BlogPageProps) => {
 
   return (
     <div className="space-y-10">
-      <SectionHeading
-        eyebrow="Writing"
-        title="Blog"
-        description="Perspectives on building thoughtful web products."
-      />
+      <SectionHeading eyebrow="Writing" title="Blog" description="Thoughts/Ойлар" />
       <div className="space-y-6">
         {paginatedPosts.length > 0 ? (
           paginatedPosts.map((post) => (

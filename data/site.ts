@@ -1,6 +1,5 @@
 export const SITE = {
   name: 'Duman Abdurakhmanuly',
-  role: '',
   location: 'Shanghai, China',
   email: 'duman.a@nyu.edu',
   resumeUrl: '/resume.pdf',

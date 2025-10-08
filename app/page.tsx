@@ -14,32 +14,19 @@ const PostListItem = dynamic(() => import('@/components/post-list-item'));
 
 const experiences = [
   {
-    role: '[ROLE_TITLE]',
-    company: '[COMPANY_NAME]',
-    timeline: '2022 — Present',
-    location: '[City, Country]',
-    bullets: [
-      'Led cross-functional squads delivering accessible web experiences.',
-      'Architected scalable design systems adopted across teams.',
-    ],
-  },
-  {
-    role: '[PREVIOUS_ROLE]',
-    company: '[PREVIOUS_COMPANY]',
-    timeline: '2019 — 2022',
-    location: '[City, Country]',
-    bullets: [
-      'Launched performant Next.js applications for global audiences.',
-      'Mentored engineers on modern front-end practices.',
-    ],
+    role: 'ERROR 404',
+    company: '',
+    timeline: '',
+    location: '',
+    bullets: [''],
   },
 ];
 
 const education = {
-  degree: '[Degree Name]',
-  school: '[University Name]',
-  timeline: '2015 — 2019',
-  coursework: ['Human Computer Interaction', 'Distributed Systems', 'Product Design'],
+  degree: 'Computer Science B.S.',
+  school: 'New York University Shanghai',
+  timeline: 'expected 2029',
+  coursework: ['Introduction to Computer Science'],
 };
 
 const HomePage = async () => {
@@ -53,7 +40,7 @@ const HomePage = async () => {
         <div className="space-y-6">
           <p className="text-sm uppercase tracking-[0.3em] text-muted">{SITE.location}</p>
           <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-            {SITE.name} — {SITE.role}
+            {SITE.name}
           </h1>
           <p className="text-lg text-muted">Undergraduate student @ NYU Shanghai.</p>
           <div className="flex flex-wrap items-center gap-3">
@@ -109,11 +96,7 @@ const HomePage = async () => {
       </section>
 
       <section className="space-y-10">
-        <SectionHeading
-          eyebrow="Experience"
-          title="Professional journey"
-          description="Cross-functional impact across product, engineering, and design teams."
-        />
+        <SectionHeading eyebrow="Experience" title="Professional Experience" />
         <div className="space-y-6">
           {experiences.map((item) => (
             <article
@@ -141,11 +124,7 @@ const HomePage = async () => {
       </section>
 
       <section className="space-y-10">
-        <SectionHeading
-          eyebrow="Education"
-          title="Foundations"
-          description="Formal education and coursework that continue to inform my craft."
-        />
+        <SectionHeading title="Education" />
         <article className="rounded-3xl border border-muted/30 bg-background/80 p-6 shadow-sm">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <div>
@@ -169,8 +148,8 @@ const HomePage = async () => {
       <section className="space-y-10">
         <SectionHeading
           eyebrow="Featured Work"
-          title="Projects that move the needle"
-          description="A curated selection of initiatives showcasing strategy, execution, and measurable outcomes."
+          title="Projects"
+          description="Here's a collection of projects I've worked on"
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {featuredProjects.map((project) => (
@@ -185,11 +164,7 @@ const HomePage = async () => {
       </section>
 
       <section className="space-y-10">
-        <SectionHeading
-          eyebrow="Latest writing"
-          title="Ideas, notes, and learnings"
-          description="Long-form explorations on building reliable, inclusive web products."
-        />
+        <SectionHeading eyebrow="Latest writing" title="Ideas, notes, and learnings" />
         <div className="space-y-6">
           {latestPosts.length > 0 ? (
             latestPosts.map((post) => (
@@ -211,7 +186,7 @@ const HomePage = async () => {
         </div>
       </section>
 
-      <section className="rounded-3xl border border-accent/30 bg-accent/10 p-8 text-center shadow-lg">
+      {/* <section className="rounded-3xl border border-accent/30 bg-accent/10 p-8 text-center shadow-lg">
         <h2 className="text-2xl font-semibold text-foreground">
           Ready to collaborate on something meaningful?
         </h2>
@@ -224,7 +199,7 @@ const HomePage = async () => {
             See my process
           </ButtonLink>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

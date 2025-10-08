@@ -11,7 +11,7 @@ type OgImageProps = {
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: `${SITE.name} · ${SITE.role}`,
+    default: `${SITE.name}`,
     template: `%s · ${SITE.name}`,
   },
   description:
@@ -42,7 +42,6 @@ export const personJsonLd = () => ({
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: SITE.name,
-  jobTitle: SITE.role,
   address: SITE.location,
   email: `mailto:${SITE.email}`,
   url: getSiteUrl(),
