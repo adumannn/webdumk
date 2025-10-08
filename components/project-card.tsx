@@ -6,6 +6,11 @@ import { ButtonLink } from '@/components/button';
 
 const shimmer =
   'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAyMCc+PHJlY3Qgd2lkdGg9JzMyJyBoZWlnaHQ9JzIwJyByeD0nNicgZmlsbD0nI2M3ZDJmZScgLz48cmVjdCB4PSc0JyB5PSc0JyB3aWR0aD0nMjQnIGhlaWdodD0nMTInIHJ4PSczJyBmaWxsPScjOTRhM2I4JyAvPjwvc3ZnPg==';
+const blurSvg = Buffer.from(
+  `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 20'><rect width='32' height='20' rx='6' fill='%23c7d2fe' /><rect x='4' y='4' width='24' height='12' rx='3' fill='%2394a3b8' /></svg>`
+).toString('base64');
+
+const shimmer = `data:image/svg+xml;base64,${blurSvg}`;
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
