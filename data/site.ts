@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Duman Abdurakhmanuly',
   location: 'Shanghai, China',
-  email: 'mailto:duman.a@nyu.edu',
+  email: 'duman.a@nyu.edu',
   resumeUrl: '/resume.pdf',
   socials: {
     github: 'https://github.com/adumannn',
